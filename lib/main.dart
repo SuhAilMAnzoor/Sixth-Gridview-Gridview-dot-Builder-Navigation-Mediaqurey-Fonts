@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixth_gridview_navigation_mediaqurey_fonts/girdviewbuilder.dart';
+import 'package:sixth_gridview_navigation_mediaqurey_fonts/gridviewbuilder_differently_colors_represenation.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     ThemeData();
     return const MaterialApp(
-      home: GirdViewBuilder(),
+      home: GirdViewBuilderDifferentColors(),
     );
   }
 }
