@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-//Girdview.builder how its works
-// This Girdview.builder is similar to Listview.builder i as till now where i understand
+// Girdview.builder how its works
+// This Girdview.builder is similar to Listview.builder as till now where i understand
 // But in previus we made girdview with the help of container to represent each container with different shape
-// We can also do same in Girdview.builder to reduce the lengthy code we can achive same like previus one but not sure about colors
+// We can also do same in Girdview.builder to reduce the lengthy code we can achive same like previus one but not sure about colors how we represent
+//  different colors in this listview.builder but i am sure behind this logic works as we saw in listview builder 
 // In this File i have represent only one color red and create item count 10 means 10 grid view of red colors 
 // i will learn about them more but still now i have this knowledge of girdview builder and this all that code tells you
 class GirdViewBuilder extends StatelessWidget {
@@ -18,8 +19,8 @@ class GirdViewBuilder extends StatelessWidget {
         itemBuilder: (context, index) {
           return Container(
             color: Colors.red, // 10 red container  
-          );                // reduced prevoius code with the help of listview.builder
-        },
+          );                                     
+        },     // reduced prevoius code with the help of listview.builder
       ),
     );
   }
