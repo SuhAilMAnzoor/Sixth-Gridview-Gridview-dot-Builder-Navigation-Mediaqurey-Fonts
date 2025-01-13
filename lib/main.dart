@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sixth_gridview_navigation_mediaqurey_fonts/girdviewbuilder_differently_represenation_of_colors_containers_contains_eachcontainer_with_its_owncolor_name.dart';
+import 'package:sixth_gridview_navigation_mediaqurey_fonts/girdviewbuilder_differently_colors_represenation_of_container_and_contains_eachcontainer_with_its_own_name.dart';
 
 void main() {
   runApp(const MyApp());
