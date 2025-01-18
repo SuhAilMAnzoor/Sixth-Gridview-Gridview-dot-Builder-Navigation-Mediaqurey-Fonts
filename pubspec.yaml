@@ -81,7 +81,7 @@ flutter:
        
         # - asset: assets/font/TiltPrism-Bold.ttf    # This file veranat of same TiltPrism is not in your asset so,
         #   weight: 700                               # you have to download form internet and add in assets 
-                           
+        #   if you want to more variants of this TiltPrism                
 
   #   - family: Trajan Pro
   #     fonts:
