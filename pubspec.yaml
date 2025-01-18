@@ -76,6 +76,12 @@ flutter:
     - family: Tilt
       fonts:
         - asset: assets/font/TiltPrism-Regular.ttf
+          weight: 400   # wight is 400 when you add TiltPrism in 
+                        # your project file you set wight 400 this will pack TiltPrism Reuglar file
+       
+        # - asset: assets/font/TiltPrism-Bold.ttf    # This file veranat of same TiltPrism is not in your asset so,
+        #   weight: 700                               # you have to download form internet and add in assets 
+                           
 
   #   - family: Trajan Pro
   #     fonts:
