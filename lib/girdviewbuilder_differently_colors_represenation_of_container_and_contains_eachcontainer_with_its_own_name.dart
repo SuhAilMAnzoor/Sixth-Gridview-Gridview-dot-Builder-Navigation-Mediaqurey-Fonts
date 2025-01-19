@@ -1,24 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:sixth_gridview_navigation_mediaqurey_fonts/colors_defined_for_file_gridviewbuilder_differently_colors_of_container_and_contains_eachcontainer_with_its_own_name.dart';
 
 class GirdViewBuilderDifferentContainerContainsItsColorsandOwnName extends StatelessWidget {
   const GirdViewBuilderDifferentContainerContainsItsColorsandOwnName({super.key});
 
   @override
   Widget build(BuildContext context) {
-    // Define a list of colors with their names
-    final List<Map<String, dynamic>> colors = [
-      {'color': Colors.red, 'name': 'Red'},
-      {'color': Colors.green, 'name': 'Green'},
-      {'color': Colors.blue, 'name': 'Blue'},
-      {'color': Colors.yellow, 'name': 'Yellow'},
-      {'color': Colors.orange, 'name': 'Orange'},
-      {'color': Colors.purple, 'name': 'Purple'},
-      {'color': Colors.cyan, 'name': 'Cyan'},
-      {'color': Colors.pink, 'name': 'Pink'},
-      {'color': Colors.teal, 'name': 'Teal'},
-      {'color': Colors.brown, 'name': 'Brown'},
-    ];
-
+    
     return Scaffold(
       body: Padding(
         padding: const EdgeInsets.all(10.0),
